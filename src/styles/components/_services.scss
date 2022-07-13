@@ -1,0 +1,102 @@
+@import "src/styles/abstract/variables";
+
+.services{
+  background-color: #EEEEEE;
+  overflow-x: hidden;
+  .services-things-we-do {
+    left: -115px;
+    z-index: 1;
+  }
+  .services-body {
+    top: -140px;
+    z-index: 1060;
+  }
+  .services-left-side {
+    position: relative;
+    right: -210px;
+    @include media-breakpoint-down(md) {
+      right: 0;
+    }
+    .card-1 {
+      left: 100px;
+      @include media-breakpoint-down(md) {
+        left: 0;
+        padding: 0;
+      }
+    }
+  }
+  .services-right-side {
+    top: -120px;
+    left: 60px;
+    @include media-breakpoint-down(md) {
+      left: 12px;
+      top: 0;
+    }
+
+  }
+  .services-heading {
+    text-align: right;
+    font: normal normal bold 55px/80px Poppins;
+    color: #253776;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    @include media-breakpoint-down(md) {
+      font: normal normal bold 25px/60px Poppins;
+      padding: 0 20px 40px;
+    }
+  }
+  .services-desc {
+    text-align: right;
+    font: normal normal normal 28px/38px Open Sans;
+    color: #FFFFFF;
+    @include media-breakpoint-down(md) {
+      font: normal normal normal 20px/30px Open Sans;
+      padding: 0 20px;
+    }
+  }
+  .services-card {
+    width: 250px;
+    height: 250px;
+    position: relative;
+    @include media-breakpoint-down(md) {
+      width: 250px;
+      height: 250px;
+      margin: 20px auto;
+    }
+    .services-card-title {
+      font: normal normal 800 25px/38px Poppins;
+      color: #FFFFFF;
+      padding-left: 24px;
+      bottom: -120px;
+      z-index: 1060;
+    }
+    .services-card-title-shadow {
+      -webkit-text-fill-color: transparent;
+      -webkit-text-stroke-width: 0.5px;
+      -webkit-text-stroke-color: #fff;
+      font-size: 27px;
+      bottom: -167px;
+      padding-left: 15px;
+      font-weight: 800;
+    }
+    .services-card-layout {
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background-color: rgba(34, 69, 118, 0.5);
+      visibility: hidden;
+      margin-bottom: 0;
+      .services-card-layout-text {
+        position: relative;
+        padding-left: 15px;
+        font: normal normal normal 16px/25px Poppins;
+        color: #FFFFFF;
+        top: 85%;
+      }
+    }
+    &:hover .services-card-layout {
+      visibility: visible;
+    }
+  }
+}

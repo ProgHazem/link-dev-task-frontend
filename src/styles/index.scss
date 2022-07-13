@@ -1,15 +1,41 @@
 @import "~bootstrap/scss/bootstrap";
+@import "src/styles/abstract/variables";
+@import "src/styles/layout/header";
+@import "src/styles/layout/footer";
+@import "src/styles/components/slider";
+@import "src/styles/components/services";
+@import "src/styles/components/news";
 
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'Poppins', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden !important;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+a {
+  text-decoration: none;
+  color: $color_text !important;
+}
+
+li {
+  color: $color_text !important;
+}
+
+.bg-pink {
+  background-color: #F215B6;
+}
+
+.bg-green {
+  background-color: #A6E51C;
+}
+
+.bg-orange {
+  background-color: $color_orange;
+}
+
+.border-radius-50 {
+  border-radius: 50%;
+  box-shadow: 0px 2px 20px #0000001A;
 }

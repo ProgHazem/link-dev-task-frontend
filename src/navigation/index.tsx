@@ -22,13 +22,12 @@ export const renderRoutes = (AllRoutes: any, basename: string) => (
           const RenderComponent = route?.component || Fragment
           const Guard = route?.guard
           const Layout = route?.layout || Fragment
-          const Role = route?.role
           return (
             <Route
               key={route?.path}
               path={route?.path}
               element={
-                <Guard roles={Role}>
+                <Guard>
                   <Layout>
                     <RenderComponent />
                   </Layout>

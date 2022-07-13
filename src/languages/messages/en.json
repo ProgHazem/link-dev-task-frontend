@@ -1,3 +1,41 @@
 {
-  "hello": "Hello"
+  "Header_Home": "Home",
+  "Header_About_Us": "About Us",
+  "Header_News": "News",
+  "Header_Contact_Us": "Contact Us",
+  "Header_Login": "Login",
+  "Header_Register": "Sing Up",
+  "Slider-Find-More": "Find out More",
+  "Slider-Play-Demo": "Play Demo",
+
+  "Services_Read_More": "Read More",
+  "Services_Heading": "We Deliver Digital Productivity",
+  "Services_Desc": "We craft technology solutions that digitally bond and transform the productivity of our customers and their citizens, workers, consumers and partners.",
+  "Services_Transformation": "Transformation",
+  "Services_Envision": "Envision",
+  "Services_Dynamic_365": "Dynamic 365",
+  "Services_Crafty_Mind": "Crafty Mind",
+  "Services_Services": "Services",
+  "Not_found": "",
+
+  "News_Media": "Media",
+  "News_Top_News": "Top News",
+  "News_All_News": "All News",
+  "News_Show_More": "View All News",
+
+  "Footer_Desc": "We make technology produce productive, adaptable and sustainable business experiences.",
+  "Footer_Company": "Comapny",
+  "Footer_Company_About": "About",
+  "Footer_Company_Careers": "Careers",
+  "Footer_Company_Mobile": "Mobile",
+  "Footer_Contact": "Contact",
+  "Footer_Contact_FAQ": "Help/FAQ",
+  "Footer_Contact_Press": "Press",
+  "Footer_Contact_Affilates": "Affilates",
+  "Footer_Media": "Media",
+  "Footer_Media_News": "News",
+  "Footer_Media_Photo": "Photo",
+  "Footer_Media_video": "Video",
+  "Footer_Social_Desc": "Discover our app",
+  "Footer_Copy_Right": "All rights reserved@Linkdevelopment.com"
 }

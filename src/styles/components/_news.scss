@@ -1,0 +1,70 @@
+@import "src/styles/abstract/variables";
+
+.news {
+  margin-top: 20px;
+  .news-media {
+    text-align: center;
+    font: normal normal 600 18px/27px Poppins;
+    color: $color_text;
+  }
+  .top-news {
+    text-align: center;
+    font: normal normal bold 50px/67px Volkhov;
+    color: #14183E;
+    text-transform: capitalize;
+  }
+  .nav-link {
+    text-align: center;
+    font: normal normal medium 18px/24px Google Sans;
+    color: #0F526E;
+    background-color: #E3E3E3;
+    border-radius: 0.5rem;
+  }
+  .active-category {
+    background-color: #0ECEFF;
+    color: #FFFFFF !important;
+  }
+
+
+  .card {
+    border-radius: 0.75rem;
+    padding-bottom: 10px;
+    .card-img, .card-img-top {
+      height: 300px !important;
+      border-top-left-radius: calc(0.75rem - 1px);
+      border-top-right-radius: calc(0.75rem - 1px);
+    }
+    .card-body {
+      .card-title {
+        font: normal normal 600 18px/22px Poppins;
+        color: $color_text;
+        height: 80px !important;
+      }
+      .date-text {
+        font: normal normal normal 16px/25px Poppins;
+        color: #707070;
+      }
+      .card-text {
+        .news-date {
+          margin-right: 15px;
+        }
+        .news-category {
+          padding-right: 15px;
+          background-color: #E3E3E3;
+          border-radius: 20px;
+          text-align: center;
+          font: normal normal normal 16px/25px Poppins;
+          color: #5E6282;
+          padding-left: 15px;
+        }
+      }
+    }
+  }
+  .view-all {
+    font: normal normal medium 18px/24px Google Sans;
+    color: #FFFFFF;
+    background-color: $color_orange;
+    padding: 15px 60px;
+    border-radius: 15px;
+  }
+}

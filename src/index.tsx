@@ -1,5 +1,7 @@
 import React from "react"
 import ReactDOM from "react-dom/client"
+import "react-app-polyfill/ie11"
+import "react-app-polyfill/stable"
 import "src/styles/index.scss"
 import App from "src/App"
 import reportWebVitals from "src/reportWebVitals"
